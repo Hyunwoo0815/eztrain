@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eztrain.co.kr/sitemap.xml
+
+#DaumWebMasterTool:9e0fa5980c92ea3ef9f57bd9e004633c485022553bc3211c9d82026e803c5684:MiYEArNK+OSmMV+kvujb1w==
