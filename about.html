@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사이트 소개 - KTX 시간표</title>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2805501048879524"
+     crossorigin="anonymous"></script>
+    <meta name="description" content="KTX 시간표 사이트 소개 및 서비스 안내">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eztrain.co.kr/about.html">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #0052CC;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .nav-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .nav-links a {
+            display: inline-block;
+            background: #0052CC;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            background: #003d99;
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .content h2 {
+            color: #0052CC;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            border-bottom: 3px solid #0052CC;
+            padding-bottom: 10px;
+        }
+        
+        .content h3 {
+            color: #0052CC;
+            font-size: 1.4em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .content ul, .content ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        .content li {
+            margin-bottom: 10px;
+        }
+        
+        .content strong {
+            color: #0052CC;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            opacity: 0.9;
+            padding: 20px;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+            
+            .content h2 {
+                font-size: 1.5em;
+            }
+            
+            .content h3 {
+                font-size: 1.2em;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ℹ️ 사이트 소개</h1>
+            <p>KTX 시간표</p>
+            <div class="nav-links">
+                <a href="/index.html">🏠 홈으로</a>
+                <a href="/privacy-policy.html">🔒 개인정보 보호 정책</a>
+                <a href="/terms-of-service.html">📋 이용약관</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>서비스 소개</h2>
+            <p>
+                KTX 시간표은 전국 KTX 및 무궁화호 열차 시간표를 한눈에 확인할 수 있는 서비스입니다. 
+                출발역과 도착역을 선택하면 실시간 열차 시간표, 요금, 소요 시간 등의 정보를 쉽게 확인할 수 있습니다.
+            </p>
+            
+            <h2>주요 기능</h2>
+            <ul>
+                <li><strong>전국 노선 시간표 조회:</strong> 전국 주요 역 간 KTX 및 무궁화호 시간표를 제공합니다.</li>
+                <li><strong>실시간 정보:</strong> 한국교통안전공단 기차정보서비스 API를 통해 최신 시간표 정보를 제공합니다.</li>
+                <li><strong>상세 정보:</strong> 첫차, 막차 시간, 소요 시간, 요금 정보 등을 한눈에 확인할 수 있습니다.</li>
+                <li><strong>편리한 검색:</strong> 출발역과 도착역을 쉽게 검색하고 비교할 수 있습니다.</li>
+            </ul>
+            
+            <h2>데이터 출처</h2>
+            <p>
+                본 사이트에서 제공하는 열차 시간표 정보는 <strong>한국교통안전공단 기차정보서비스</strong>의 공공데이터를 기반으로 합니다. 
+                실제 운행 시간은 변경될 수 있으므로, 정확한 시간표는 <a href="https://www.letskorail.com" target="_blank" rel="noopener">코레일 공식 홈페이지</a>에서 확인하시기 바랍니다.
+            </p>
+            
+            <h2>이용 안내</h2>
+            <h3>시간표 확인 방법</h3>
+            <ol>
+                <li>메인 페이지에서 원하는 노선을 검색하거나 카드를 클릭합니다.</li>
+                <li>상세 페이지에서 해당 노선의 모든 시간표를 확인할 수 있습니다.</li>
+                <li>각 시간표에는 출발 시간, 도착 시간, 소요 시간, 요금 정보가 표시됩니다.</li>
+            </ol>
+            
+            <h3>예매 안내</h3>
+            <p>
+                본 사이트는 시간표 정보만 제공하며, 실제 예매는 <a href="https://www.letskorail.com" target="_blank" rel="noopener">코레일 공식 홈페이지</a> 또는 
+                코레일톡 앱을 통해 진행하시기 바랍니다.
+            </p>
+            
+            <h2>문의사항</h2>
+            <p>
+                서비스 이용 중 문의사항이나 개선 사항이 있으시면 언제든지 연락주시기 바랍니다.
+            </p>
+            <ul>
+                <li><strong>이메일:</strong> info@eztrain.co.kr</li>
+            </ul>
+            
+            <h2>개인정보 보호</h2>
+            <p>
+                KTX 시간표은 이용자의 개인정보를 소중히 다루며, 관련 법령을 준수합니다. 
+                자세한 내용은 <a href="/privacy-policy.html">개인정보 보호 정책</a>을 참고하시기 바랍니다.
+            </p>
+            
+            <h2>서비스 개선</h2>
+            <p>
+                KTX 시간표은 지속적으로 서비스를 개선하고 새로운 기능을 추가하기 위해 노력하고 있습니다. 
+                이용자 여러분의 소중한 의견을 기다리고 있습니다.
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 KTX 시간표. All rights reserved.</p>
+            <p><a href="/privacy-policy.html">개인정보 보호 정책</a> | <a href="/terms-of-service.html">이용약관</a> | <a href="/about.html">사이트 소개</a></p>
+        </div>
+    </div>
+</body>
+</html>
